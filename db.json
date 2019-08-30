@@ -1,0 +1,11 @@
+{
+  "fake": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "fake2": {
+    "name": "typicode"
+  }
+}
