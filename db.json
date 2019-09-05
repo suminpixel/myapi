@@ -55,13 +55,13 @@
 },
 */
 {
-  "posts": [
+  "fake": [
     {
       "id": 1,
       "title": "hello"
     }
   ],
-  "profile": {
+  "fake2": {
     "name": "typicode"
   }
-}
+} 
