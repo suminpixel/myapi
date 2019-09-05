@@ -58,7 +58,7 @@
       "share": []
     }
   },
-  "view": {
+
     "request" :  {
       "requestPk": "pk1",
       "requestFrom": {
@@ -120,7 +120,7 @@
             "taskManagerPk" :"pk222"
           }
       ]
-    }
+
   }
 }
 
