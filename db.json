@@ -142,7 +142,7 @@
         "schedulePlaceUrl" : "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505544,1109080&rt1=&rt2=%EC%84%9C%EC%B4%882%EB%8F%99%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0&rtIds=,11393566",
         "scheduleIndexColor" : "#FEC8A6",
         "scheduleIndex" : "기타",
-        "attending" : "true"
+        "attending" : true
         
         },
         {
@@ -162,7 +162,7 @@
         "schedulePlaceUrl" : "",
         "scheduleIndexColor" : "#DBDEFF",
         "scheduleIndex" : "회사",
-        "attending" : "true"
+        "attending" : true
         }
       ],
       "share": [
@@ -191,7 +191,7 @@
         "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
         "memberName": "갤럭시",
         "memberJob": "개발자",
-        "attending" : "true"
+        "attending" : true
         }
         ],
         "scheduleGuestList": [
@@ -217,7 +217,7 @@
       "schedulePlaceUrl" : "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505544,1109080&rt1=&rt2=%EC%84%9C%EC%B4%882%EB%8F%99%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0&rtIds=,11393566",
       "scheduleIndexColor" : "#FEC8A6",
       "scheduleIndex" : "기타",
-      "attending" : "false"
+      "attending" : false
     }
 
   },
