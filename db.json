@@ -1,5 +1,77 @@
 {
   "data" : {
+    "noteList" : [
+      {
+        "notePk" : "n1",
+         "noteTitle" : "회사 업무용",
+        "noteCreated" : "2019-09-08 11:34",
+         "noteMemoList" : [
+            {
+              "memoPk" : "m1",
+              "memoBody" : "홍길동 이사 미팅 3시에 잡음",
+              "memoCreated" : "2019-09-11 09:34",
+              "memoUpdated" :"2019-09-11 09:34",
+              "important" : false
+            },
+           {
+             "memoPk" : "m2",
+             "memoBody" : "1층 맥도날드에서 할인 이벤트함! 퇴근하고 꼭 가야겠다 ",
+             "memoCreated" : "2019-09-17 17:34",
+             "memoUpdated" :"2019-09-19 18:34",
+             "important" : true
+           }
+        ]
+      },
+      {
+        "notePk" : "n2",
+        "noteTitle" : "볼링 모임",
+        "noteCreated" : "2019-09-12 08:30",
+        "noteMemoList" : [
+          {
+            "memoPk" : "n2-2",
+            "memoBody" : "볼링장 이번주 계속 공사중",
+            "memoCreated" : "2019-09-12 19:01",
+            "memoUpdated" :"2019-09-12 19:01",
+            "important" : false
+          },
+          {
+            "memoPk" : "n1-2",
+            "memoBody" : "회비 누락자 명단 : 김둘리, 도우너, 박또치, 홍길동, 고길동, 마이클 박",
+            "memoCreated" : "2019-09-14 16:33",
+            "memoUpdated" :"2019-09-15 16:12",
+            "important" : true
+          }
+        ]
+      },
+      {
+        "notePk" : "n3",
+        "noteTitle" : "기타",
+        "noteCreated" : "2019-09-14 18:07",
+        "noteMemoList" : [
+          {
+            "memoPk" : "n3-1",
+            "memoBody" : "세제 떨어짐..",
+            "memoCreated" : "2019-09-18 02:01",
+            "memoUpdated" :"2019-09-18 02:01",
+            "important" : false
+          }
+        ]
+      },
+      {
+        "notePk" : "n4",
+        "noteTitle" : "나만의 일기^^",
+        "noteCreated" : "2019-09-20 01:19",
+        "noteMemoList" : [
+          {
+            "memoPk" : "n4-1",
+            "memoBody" : "9호선에서 이상한 사람을 봤다 ㅎㅎ",
+            "memoCreated" : "2019-09-20 09:14",
+            "memoUpdated" :"2019-09-20 09:14",
+            "important" : false
+          }
+        ]
+      }
+    ],
     "requestList": {
       "direct": [
         {
@@ -126,86 +198,86 @@
     "scheduleList" : {
       "direct": [
         {
-        "schedulePk" : "s1",
-        "scheduleWriter" : {
+          "schedulePk" : "s1",
+          "scheduleWriter" : {
+            "memberPk": "m1",
+            "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
+            "memberName": "홍길동",
+            "memberJob": "개발자"
+          },
+          "scheduleTitle" : "스누퍼 엠티 일정",
+          "scheduleDescription" : "가을 엠티 일정입니다~ 시간 맞춰 모이세요~",
+          "scheduleCreated" : "2019-09-08 00:00:00",
+          "scheduleStartDate" : "2019-09-29 10:30:00",
+          "scheduleEndDate" : "2019-09-29 10:40:00",
+          "schedulePlace" : "서초 2동 주민센터 앞",
+          "schedulePlaceUrl" : "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505544,1109080&rt1=&rt2=%EC%84%9C%EC%B4%882%EB%8F%99%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0&rtIds=,11393566",
+          "scheduleIndexColor" : "#FEC8A6",
+          "scheduleIndex" : "기타",
+          "attending" : true
+
+        },
+        {
+          "schedulePk" : "s2",
+          "scheduleWriter" : {
+            "memberPk": "m2",
+            "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
+            "memberName": "김둘리",
+            "memberJob": "디자이너"
+          },
+          "scheduleTitle" : "3분기 긴급 웹디자인 미팅",
+          "scheduleDescription" : "4층 회의실로 오세요~",
+          "scheduleCreated" : "2019-09-08 00:00:00",
+          "scheduleStartDate" : "2019-09-11 09:40:00",
+          "scheduleEndDate" : "2019-09-11 12:40:00",
+          "schedulePlace" : "4층 회의실",
+          "schedulePlaceUrl" : "",
+          "scheduleIndexColor" : "#DBDEFF",
+          "scheduleIndex" : "회사",
+          "attending" : true
+        }
+      ],
+      "share": [
+
+      ]
+
+    },
+    "schedule" : {
+      "schedulePk" : "s1",
+      "scheduleWriter" : {
         "memberPk": "m1",
         "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
         "memberName": "홍길동",
         "memberJob": "개발자"
-        },
-        "scheduleTitle" : "스누퍼 엠티 일정",
-        "scheduleDescription" : "가을 엠티 일정입니다~ 시간 맞춰 모이세요~",
-        "scheduleCreated" : "2019-09-08 00:00:00",
-        "scheduleStartDate" : "2019-09-29 10:30:00",
-        "scheduleEndDate" : "2019-09-29 10:40:00",
-        "schedulePlace" : "서초 2동 주민센터 앞",
-        "schedulePlaceUrl" : "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505544,1109080&rt1=&rt2=%EC%84%9C%EC%B4%882%EB%8F%99%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0&rtIds=,11393566",
-        "scheduleIndexColor" : "#FEC8A6",
-        "scheduleIndex" : "기타",
-        "attending" : true
-        
-        },
-        {
-        "schedulePk" : "s2",
-        "scheduleWriter" : {
-        "memberPk": "m2",
-        "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
-        "memberName": "김둘리",
-        "memberJob": "디자이너"
-        },
-        "scheduleTitle" : "3분기 긴급 웹디자인 미팅",
-        "scheduleDescription" : "4층 회의실로 오세요~",
-        "scheduleCreated" : "2019-09-08 00:00:00",
-        "scheduleStartDate" : "2019-09-11 09:40:00",
-        "scheduleEndDate" : "2019-09-11 12:40:00",
-        "schedulePlace" : "4층 회의실",
-        "schedulePlaceUrl" : "",
-        "scheduleIndexColor" : "#DBDEFF",
-        "scheduleIndex" : "회사",
-        "attending" : true
-        }
-      ],
-      "share": [
-      
-      ]
-
-    },
-  "schedule" : {
-      "schedulePk" : "s1",
-      "scheduleWriter" : {
-      "memberPk": "m1",
-      "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
-      "memberName": "홍길동",
-      "memberJob": "개발자"
       },
       "scheduleAttendantList": [
         {
-        "memberPk": "g1",
-        "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
-        "memberName": "바바예투",
-        "memberJob": "디자이너",
-        "attending" : false
+          "memberPk": "g1",
+          "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
+          "memberName": "바바예투",
+          "memberJob": "디자이너",
+          "attending" : false
         },
         {
-        "memberPk": "g2",
-        "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
-        "memberName": "갤럭시",
-        "memberJob": "개발자",
-        "attending" : true
+          "memberPk": "g2",
+          "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
+          "memberName": "갤럭시",
+          "memberJob": "개발자",
+          "attending" : true
         }
-        ],
-        "scheduleGuestList": [
+      ],
+      "scheduleGuestList": [
         {
-        "memberPk": "g1",
-        "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
-        "memberName": "김뽀식",
-        "memberJob": "개발자"
+          "memberPk": "g1",
+          "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
+          "memberName": "김뽀식",
+          "memberJob": "개발자"
         },
         {
-        "memberPk": "g2",
-        "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
-        "memberName": "박필석",
-        "memberJob": "개발자"
+          "memberPk": "g2",
+          "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
+          "memberName": "박필석",
+          "memberJob": "개발자"
         }
       ],
       "scheduleTitle" : "스누퍼 엠티 일정",
@@ -222,6 +294,6 @@
 
   },
   "view": {
-  
+
   }
 }
