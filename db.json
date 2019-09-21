@@ -1,5 +1,27 @@
 {
   "data" : {
+    "memoList" : [
+      {
+        "memoPk": "m1111",
+        "memoCreate" : "2019-03-02 13:00",
+        "memoBody" : "wqwddsawdq"
+      },
+      {
+        "memoPk": "m2222",
+        "memoCreate" : "2019-03-02 13:00",
+        "memoBody" : "wqwddqasddq"
+      },
+      {
+        "memoPk": "m1333",
+        "memoCreate" : "2019-03-02 13:00",
+        "memoBody" : "wqwddqwasdsdwdq"
+      },
+      {
+        "memoPk": "m1333",
+        "memoCreate" : "2019-03-02 13:00",
+        "memoBody" : "wqwddasdaswdq"
+      }
+    ],
     "noteList" : [
       {
         "notePk" : "n1",
@@ -72,28 +94,6 @@
         ]
       }
     ],
-    "memoList" : [
-      {
-        "memoPk": "m1111",
-        "memoCreate" : "2019-03-02 13:00",
-        "memoBody" : "wqwddsawdq"
-      },
-      {
-        "memoPk": "m2222",
-        "memoCreate" : "2019-03-02 13:00",
-        "memoBody" : "wqwddqasddq"
-      },
-      {
-        "memoPk": "m1333",
-        "memoCreate" : "2019-03-02 13:00",
-        "memoBody" : "wqwddqwasdsdwdq"
-      },
-      {
-        "memoPk": "m1333",
-        "memoCreate" : "2019-03-02 13:00",
-        "memoBody" : "wqwddasdaswdq"
-      }
-    ],
     "scheduleList" : {
       "direct": [
         {
@@ -142,8 +142,8 @@
 
     },
     "schedule" : {
-      "schedulePk" : "s1",
-      "scheduleWriter" : {
+      "schedulePk": "s1",
+      "scheduleWriter": {
         "memberPk": "m1",
         "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
         "memberName": "홍길동",
@@ -155,14 +155,14 @@
           "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
           "memberName": "바바예투",
           "memberJob": "디자이너",
-          "attending" : false
+          "attending": false
         },
         {
           "memberPk": "g2",
           "memberProfileImage": "https://wstatic.dcinside.com/main/main2011/2019/09/05/gall_58409_20190905103815.jpg",
           "memberName": "갤럭시",
           "memberJob": "개발자",
-          "attending" : true
+          "attending": true
         }
       ],
       "scheduleGuestList": [
@@ -179,20 +179,16 @@
           "memberJob": "개발자"
         }
       ],
-      "scheduleTitle" : "스누퍼 엠티 일정",
-      "scheduleDescription" : "가을 엠티 일정입니다~ 시간 맞춰 모이세요~",
-      "scheduleCreated" : "2019-09-08 00:00:00",
-      "scheduleStartDate" : "2019-09-29 10:30:00",
-      "scheduleEndDate" : "2019-09-29 10:40:00",
-      "schedulePlace" : "서초 2동 주민센터 앞",
-      "schedulePlaceUrl" : "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505544,1109080&rt1=&rt2=%EC%84%9C%EC%B4%882%EB%8F%99%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0&rtIds=,11393566",
-      "scheduleIndexColor" : "#FEC8A6",
-      "scheduleIndex" : "기타",
-      "attending" : true
+      "scheduleTitle": "스누퍼 엠티 일정",
+      "scheduleDescription": "가을 엠티 일정입니다~ 시간 맞춰 모이세요~",
+      "scheduleCreated": "2019-09-08 00:00:00",
+      "scheduleStartDate": "2019-09-29 10:30:00",
+      "scheduleEndDate": "2019-09-29 10:40:00",
+      "schedulePlace": "서초 2동 주민센터 앞",
+      "schedulePlaceUrl": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,505544,1109080&rt1=&rt2=%EC%84%9C%EC%B4%882%EB%8F%99%EC%A3%BC%EB%AF%BC%EC%84%BC%ED%84%B0&rtIds=,11393566",
+      "scheduleIndexColor": "#FEC8A6",
+      "scheduleIndex": "기타",
+      "attending": true
     }
-
-  },
-  "view": {
-
   }
 }
